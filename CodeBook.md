@@ -1,5 +1,6 @@
 
 The data used for the project was collected from :
+==================================================
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
