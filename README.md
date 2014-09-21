@@ -41,3 +41,16 @@ The following files are available for the train and test data. Their description
 - 'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis. 
 - 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
+
+
+Transformations and work that I performed to clean up the data :
+==========================================
+
+Dataset Was organized in many files. To clen up the data and make one tidy dataset, I did the following :
+1) I merged the training and the test sets to create one data set (by using read.table() and cbind() functions).
+2) I extracted only the measurements on the mean and standard deviation for each measurement (by using grep() function).
+3) I used descriptive activity names to name the activities in the data set by merging data set with activity labels.
+4) I labeled the data set with descriptive variable names. 
+
+
+
