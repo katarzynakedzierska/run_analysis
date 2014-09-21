@@ -1,5 +1,3 @@
-run_analysis
-============
 
 The data used for the project was collected from :
 
